@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    scroll-behavior: smooth;
     
 }
 
@@ -88,17 +89,4 @@ input[type="submit"]:hover{
 input[type="reset"]:hover{
    background: #946f7d;
    color: #070000
-}
-
-input[type="radio"]{
-   width: 100%;
-   padding: 10px 14px;
-   border: 1.5px solid #cbd5e1;
-   border-radius: 8px;
-   font-size: 0.95rem;
-   transition: all 0.3s ease;
-   outline: none;
-   background-color: #f8fafc;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 1.5rem;
 }
