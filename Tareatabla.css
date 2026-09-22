@@ -1,0 +1,37 @@
+
+body{
+    background-color: rgba(16, 213, 177, 0.805);
+
+}
+
+td{
+  text-align: center;
+  background-color: darkgrey;
+  font-size: xx-large;
+  font-family: Berlin Sans FB Demi;
+  }
+
+td img{
+    width: 150px;
+    height: 150px;
+
+}
+
+th{
+    background-color: rgb(39, 207, 27);
+    text-align: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border: 1px;
+}
+
+table{
+    background-color: rgb(6, 15, 71);
+    margin: 40px;
+    padding: 0px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    }
