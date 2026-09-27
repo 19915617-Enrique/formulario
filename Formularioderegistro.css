@@ -90,3 +90,51 @@ input[type="reset"]:hover{
    background: #946f7d;
    color: #070000
 }
+
+/*esta configuracion es para darle estilo al radio botton*/
+input[type="radio"]{
+appearance: none;
+-webkit-appearance: none;
+width: 18px;
+height: 18px;
+border: 1.5px solid #e2e8f0;
+border-radius: 50%;
+outline: none;
+background-color: #3ac395;
+cursor: pointer;
+vertical-align: middle;
+margin: 0 8px 0 4px;
+display: inline-grid;
+place-content: center;
+transition: all 0.2s ease-in-out;
+}
+input[type="radio"].hover{
+    border-color: #870b0b;
+   
+}
+input[type="radio"]::before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.2s transform ease-in-out;
+    background-color: antiquewhite;
+}
+input[type="radio"]:checked{
+  border-color: #4529aa; 
+  background-color: #4400ff; 
+}
+input[type="radio"]:checked::before{
+    transform: scale(1);
+}
+
+.etiqueta{
+   font-family: 'Courier New', Courier, monospace;
+   font-size: larger;
+}
+
+.etiquetas{
+   font-size: larger;
+   font-family: 'Times New Roman', Times, serif;
+}
